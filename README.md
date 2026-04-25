@@ -1,1 +1,1 @@
-# atcoder-practice-.keep
+# atcoderの練習用リポジトリ
