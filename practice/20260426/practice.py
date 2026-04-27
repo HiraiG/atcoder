@@ -10,6 +10,16 @@ F = list(map(int, input().split()))
 # diff = 1 - (1/M)^(N - 1)
 diff = set(F)
 
+# 種類数と人数が同じなら Yes
+if len(diff) == N:
+    print("Yes")
+else:
+    print("No")
 
-print(diff)
 print("\n")
+
+# 種類数が M と同じなら Yes
+if len(diff) == M:
+    print("Yes")
+else:
+    print("No")
